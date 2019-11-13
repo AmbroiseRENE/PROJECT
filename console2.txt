@@ -1,0 +1,607 @@
+
+IN-LY-005@IN-LY-005 MINGW64 ~/Desktop/first-git-projetct/PROJECT-2
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recursive ...       alias of --recurse-submodules
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+
+
+IN-LY-005@IN-LY-005 MINGW64 ~/Desktop/first-git-projetct/PROJECT-2
+$ git clone https://github.com/AmbroiseRENE/PROJECT-2.git
+Cloning into 'PROJECT-2'...
+warning: You appear to have cloned an empty repository.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/Desktop/first-git-projetct/PROJECT-2
+$ git clone https://github.com/AmbroiseRENE/PROJECT.git
+Cloning into 'PROJECT'...
+remote: Enumerating objects: 33, done.
+remote: Counting objects: 100% (33/33), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 33 (delta 8), reused 24 (delta 6), pack-reused 0
+Unpacking objects: 100% (33/33), done.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/Desktop/first-git-projetct/PROJECT-2
+$ cd
+
+IN-LY-005@IN-LY-005 MINGW64 ~
+$ ls
+'3D Objects'/             Modèles@
+ ambroise/                Music/
+ AppData/                 NTUSER.DAT
+'Application Data'@       ntuser.dat.LOG1
+ Contacts/                ntuser.dat.LOG2
+ Cookies@                 NTUSER.DAT{e2234019-d4aa-11e9-9e91-d66fd1cee59c}.TM.blf
+ Desktop/                 NTUSER.DAT{e2234019-d4aa-11e9-9e91-d66fd1cee59c}.TMContainer00000000000000000001.regtrans-ms
+ Documents/               NTUSER.DAT{e2234019-d4aa-11e9-9e91-d66fd1cee59c}.TMContainer00000000000000000002.regtrans-ms
+ Downloads/               ntuser.ini
+ eclipse/                 OneDrive/
+ eclipse-workspace/       Pictures/
+ Favorites/               Recent@
+ FirstWorkSpace/         'Saved Games'/
+ hsperfdata_IN-LY-005/    Searches/
+ IntelGraphicsProfiles/   SendTo@
+ Links/                   Videos/
+'Local Settings'@        "Voisinage d'impression"@
+'Menu Démarrer'@         'Voisinage réseau'@
+'Mes documents'@          WorkSpace_JSP/
+ MicrosoftEdgeBackups/
+
+IN-LY-005@IN-LY-005 MINGW64 ~
+$ cd PROJECT-2
+bash: cd: PROJECT-2: No such file or directory
+
+IN-LY-005@IN-LY-005 MINGW64 ~
+$ cd desktop
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop
+$ ls
+ Ambroise/   desktop.ini                 first-git-projetct/  'One piece'/          README.txt
+ ARC.lnk*   'Eclipse Jee 2019-09.lnk'*   JAR/                  PowerDesigner.lnk*   sublime_text.exe.lnk*
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop
+$ cd first-git-projetct
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct
+$ ls
+PROJECT/  PROJECT-2/
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct
+$ cd PROJECT-2
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2
+$ ls
+PROJECT/
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2
+$ cd PROJECT
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$
+Display all 4908 possibilities? (y or n)
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ ls
+Employee.java  essai-p.txt  readme.md  README.txt
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git logout
+git: 'logout' is not a git command. See 'git --help'.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git log
+commit c6c08f554ef2240df31696c4bb3b9ec886232ab1 (HEAD -> master, origin/master, origin/HEAD)
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 14:02:43 2019 +0100
+
+    ajout de texte au fichier projet-p
+
+commit 6386161d880c1a515254eb442d385757305f8aad
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:42:42 2019 +0100
+
+    Ajout du fichier .gitignore
+
+commit 1dc1af117c1342abd43a2c7fe1ce947abf39a51d
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:42:17 2019 +0100
+
+    Ajout du fichier .gitignore
+
+commit 67419f3f606690b8e73e8539241a2c750dce3395
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:32:21 2019 +0100
+
+    modification code pour lisibilité
+
+commit 4c8c9092dbaa88a9d7a56c83dd36685279a4ddef
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:30:54 2019 +0100
+
+    Modification de la classe Employee
+
+commit 1105602445dd0002f705ef785b92e67c4784adbb
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:21:13 2019 +0100
+
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:21:13 2019 +0100
+
+
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 14:02:43 2019 +0100
+
+    ajout de texte au fichier projet-p
+
+commit 6386161d880c1a515254eb442d385757305f8aad
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:42:42 2019 +0100
+
+    Ajout du fichier .gitignore
+
+commit 1dc1af117c1342abd43a2c7fe1ce947abf39a51d
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:42:17 2019 +0100
+
+    Ajout du fichier .gitignore
+
+commit 67419f3f606690b8e73e8539241a2c750dce3395
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:32:21 2019 +0100
+
+    modification code pour lisibilité
+
+commit 4c8c9092dbaa88a9d7a56c83dd36685279a4ddef
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:30:54 2019 +0100
+
+    Modification de la classe Employee
+
+commit 1105602445dd0002f705ef785b92e67c4784adbb
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 12:21:13 2019 +0100
+
+    Ajout des fichier Employee.java, essai-p.txt, readme.md et test.log
+
+commit b3d4d6d050db8dbcd1ee574e6c9cf7eb493d4714
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 11:59:40 2019 +0100
+
+    Les modif c'est sympa
+
+commit b8a4e28d04e1ad06e9463a8be880575ab481e6e1
+Author: AmbroiseRENE <57705699+AmbroiseRENE@users.noreply.github.com>
+Date:   Wed Nov 13 11:56:13 2019 +0100
+
+    new changement
+
+commit 5a62ae79193d70633f386ac987ab045b655fb41f
+Author: AmbroiseRENE <ambroise.rene@gmail.com>
+Date:   Wed Nov 13 11:52:22 2019 +0100
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        s
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/AmbroiseRENE/PROJECT
+   c6c08f5..689d83c  master     -> origin/master
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git fetch origin master
+From https://github.com/AmbroiseRENE/PROJECT
+ * branch            master     -> FETCH_HEAD
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ cat Employee.java
+package com.fr.adaming.entity;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+
+import com.fr.adaming.enumeration.Fonction;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor @ToString
+public class Employee extends User{
+
+        @Id
+        @GeneratedValue(strategy = GenerationType.AUTO)
+        private Integer id;
+
+        private String nom;
+
+        private String prenom;
+        @Email
+        private String email;
+
+        private String pwd;
+
+        private double salaire;
+
+        @Enumerated(EnumType.ORDINAL)
+        private Fonction fonction;
+
+        private LocalDate dateRecrutement;
+
+        @ManyToMany(mappedBy = "employees")
+        private Set<Projet> projetsE;
+
+        @ManyToOne
+        @JoinColumn(name = "id_Societe")
+        private Societe societeE;
+
+
+}
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git merge origin master
+Updating c6c08f5..689d83c
+Fast-forward
+ Employee.java | 19 -------------------
+ 1 file changed, 19 deletions(-)
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git cat Employee.java
+git: 'cat' is not a git command. See 'git --help'.
+
+The most similar commands are
+        clean
+        mktag
+        stage
+        stash
+        tag
+        var
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ cat Employee.java
+
+@Entity
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor @ToString
+public class Employee extends User{
+
+        @Id
+        @GeneratedValue(strategy = GenerationType.AUTO)
+        private Integer id;
+
+        private String nom;
+
+        private String prenom;
+        @Email
+        private String email;
+
+        private String pwd;
+
+        private double salaire;
+
+        @Enumerated(EnumType.ORDINAL)
+        private Fonction fonction;
+
+        private LocalDate dateRecrutement;
+
+        @ManyToMany(mappedBy = "employees")
+        private Set<Projet> projetsE;
+
+        @ManyToOne
+        @JoinColumn(name = "id_Societe")
+        private Societe societeE;
+
+
+}
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git sttatus
+git: 'sttatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Employee.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git commit -am"ajout commentaire"
+[master 9c79e74] ajout commentaire
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git merge
+Already up to date.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git merge origin master
+Already up to date.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ cat Employee.java
+// pinaise moi j'avais deja mis un commentaire ici
+@Entity
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor @ToString
+public class Employee extends User{
+
+        @Id
+        @GeneratedValue(strategy = GenerationType.AUTO)
+        private Integer id;
+
+        private String nom;
+
+        private String prenom;
+        @Email
+        private String email;
+
+        private String pwd;
+
+        private double salaire;
+
+        @Enumerated(EnumType.ORDINAL)
+        private Fonction fonction;
+
+        private LocalDate dateRecrutement;
+
+        @ManyToMany(mappedBy = "employees")
+        private Set<Projet> projetsE;
+
+        @ManyToOne
+        @JoinColumn(name = "id_Societe")
+        private Societe societeE;
+
+
+}
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git push
+
+To https://github.com/AmbroiseRENE/PROJECT.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/AmbroiseRENE/PROJECT.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/AmbroiseRENE/PROJECT
+   689d83c..186cab6  master     -> origin/master
+Auto-merging Employee.java
+CONFLICT (content): Merge conflict in Employee.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master|MERGING)
+$ cat Employee.java
+<<<<<<< HEAD
+// pinaise moi j'avais deja mis un commentaire ici
+=======
+// cette classe c'est vraiment trop de la balle
+>>>>>>> 186cab69c726d6bff609cfb47f3ac15dec878e43
+@Entity
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor @ToString
+public class Employee extends User{
+
+        @Id
+        @GeneratedValue(strategy = GenerationType.AUTO)
+        private Integer id;
+
+        private String nom;
+
+        private String prenom;
+        @Email
+        private String email;
+
+        private String pwd;
+
+        private double salaire;
+
+        @Enumerated(EnumType.ORDINAL)
+        private Fonction fonction;
+
+        private LocalDate dateRecrutement;
+
+        @ManyToMany(mappedBy = "employees")
+        private Set<Projet> projetsE;
+
+        @ManyToOne
+        @JoinColumn(name = "id_Societe")
+        private Societe societeE;
+
+
+}
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   Employee.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master|MERGING)
+$ git commit -am "les deux commentaires sont garder et on ete condencé"
+[master 1419a30] les deux commentaires sont garder et on ete condencé
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 653 bytes | 326.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/AmbroiseRENE/PROJECT.git
+   186cab6..1419a30  master -> master
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git pull
+Already up to date.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$ git merge
+Already up to date.
+
+IN-LY-005@IN-LY-005 MINGW64 ~/desktop/first-git-projetct/PROJECT-2/PROJECT (master)
+$
