@@ -48,4 +48,5 @@ public class Employee extends User{
 	@JoinColumn(name = "id_Societe")
 	private Societe societeE;
 	
+	
 }
