@@ -1,4 +1,4 @@
-
+// cette classe c'est vraiment trop de la balle
 @Entity
 @Getter	@Setter @AllArgsConstructor @NoArgsConstructor @ToString
 public class Employee extends User{
