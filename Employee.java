@@ -49,5 +49,5 @@ public class Employee extends User{
 	@JoinColumn(name = "id_Societe")
 	private Societe societeE;
 	
-	
+	//constructeur mdr je rigole y'a les annotation lombok
 }
