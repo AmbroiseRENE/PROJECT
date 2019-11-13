@@ -1,4 +1,8 @@
+
 // pinaise moi j'avais deja mis un commentaire ici
+
+// cette classe c'est vraiment trop de la balle
+
 @Entity
 @Getter	@Setter @AllArgsConstructor @NoArgsConstructor @ToString
 public class Employee extends User{
